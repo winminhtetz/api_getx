@@ -6,7 +6,7 @@ class MemoController extends GetxController {
   final memo = Rxn<Memo>();
   final isLoading = false.obs;
 
-  ApiController apiController = Get.put(ApiController());
+  final ApiController apiController = Get.put(ApiController());
 
   @override
   void onInit() {
